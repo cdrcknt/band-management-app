@@ -1,0 +1,28 @@
+name: band_management_app
+description: A comprehensive band management application
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_web_plugins:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/rock.jpg
+    - assets/images/pop.jpg
+    - assets/images/jazz.jpg
+    - assets/images/classical.jpg
+    - assets/images/electronic.jpg
+    - assets/images/default.jpg
